@@ -37,3 +37,6 @@ def test_add_stock_01(monkeypatch):
     new_quant = current_quant + 100
     assert new_quant == 125
 
+def test_remove_stock():
+    kirana_cli.remove_stock()
+    assert False
