@@ -1,4 +1,5 @@
 #--------------------Kirana Store CLI-------------------
+#Stock List
 stock = [
     {"name": "Rice", "price": 60, "quantity": 50},
     {"name": "Wheat", "price": 45, "quantity": 60},
