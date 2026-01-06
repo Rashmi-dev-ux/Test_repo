@@ -39,4 +39,5 @@ def test_add_stock_01(monkeypatch):
 
 def test_remove_stock():
     kirana_cli.remove_stock()
+    # call method remove_stock
     assert False
