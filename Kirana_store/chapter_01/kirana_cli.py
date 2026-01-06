@@ -1,6 +1,6 @@
 #--------------------Kirana Store CLI-------------------
 stock = [
-    {"name": "01Rice", "price": 60, "quantity": 50},
+    {"name": "Rice", "price": 60, "quantity": 50},
     {"name": "Wheat", "price": 45, "quantity": 60},
     {"name": "Milk", "price": 30, "quantity": 25},
     {"name": "Sugar", "price": 40, "quantity": 20}
