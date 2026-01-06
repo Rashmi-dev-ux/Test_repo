@@ -1,12 +1,11 @@
 #--------------------Kirana Store CLI-------------------
 stock = [
-    {"name": "Rice", "price": 60, "quantity": 50},
-    {"name": "Wheat", "price": 45, "quantity": 40},
+    {"name": "01Rice", "price": 60, "quantity": 50},
+    {"name": "Wheat", "price": 45, "quantity": 60},
     {"name": "Milk", "price": 30, "quantity": 25},
     {"name": "Sugar", "price": 40, "quantity": 20}
    ]
 def view_stock():
-    
     for i,item in enumerate(stock):
         print(f"{i+1}.  {item['name']}   $ {str(item['price'])} /kg     {str(item['quantity'])}")
 
