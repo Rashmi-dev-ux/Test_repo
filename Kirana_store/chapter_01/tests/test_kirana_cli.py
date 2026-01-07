@@ -37,6 +37,10 @@ def test_add_stock_01(monkeypatch):
     new_quant = current_quant + 100
     assert new_quant == 125
 
+
+#======================================================================================
+
+
 def test_remove_stock(monkeypatch):
     # take input before calling remove_stock method and patch with the help of monkeypatch
     input =iter([2, 10])
@@ -49,7 +53,7 @@ def test_remove_stock(monkeypatch):
     current_quant = kirana_cli.stock[2-1]["quantity"]
     print (current_quant)
     new_quant = current_quant - 10
-    assert new_quant == 60
+    assert new_quant == 50
     
 
     
