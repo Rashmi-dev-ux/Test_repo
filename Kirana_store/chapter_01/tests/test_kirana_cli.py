@@ -55,5 +55,22 @@ def test_remove_stock(monkeypatch):
     new_quant = current_quant - 10
     assert new_quant == 50
     
+ #=======================================================
+
+def test_buy_product(monkeypatch):
+    inputs = iter(['2', '20'])
+
+    monkeypatch.setattr("builtins.input", lambda _: next(inputs))
+    
+
+    initial_stock = kirana_cli.stock[2- 1]["quantity"]
+    kirana_cli.buy_product()
+
+    assert kirana_cli.stock[2-1]["quantity"] == initial_stock - 20
+
+
+
+
+
 
     
